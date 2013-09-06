@@ -1,1 +1,19 @@
 This my first git src manage project 
+
+git config --global --user.name "pythonwood"
+git config --global --user.email "582223837@qq.com
+
+#git config --global --list	 #list all
+#git config --global color.ui "auto"
+
+mk HelloWorld
+cd HelloWorld
+git init	#make .git
+git add .
+git status	#which is changed
+git commit -m "add commit: add something" \
+    -m "This allows for a more semantic document."
+#git log -1  #显示最后一次
+
+
+
