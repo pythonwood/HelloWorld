@@ -16,7 +16,7 @@ git commit -m "add commit: add something" \
 #git log -1  #显示最后一次
 
 ###############################################################
-
+二次开发：2013-10-29
 ###################################################################
 # 开心发现，Ubuntu极点五笔切换右边Alt是快捷键!之前用Ctrl+Alt或Ctrl+Space都不方便，比右shift临时换输入法更好！
 ###################################################################
@@ -24,9 +24,22 @@ git commit -m "add commit: add something" \
 git clone git@github.com:/pythonwood/HelloWorld.git
 # 
 git commit -amend # 非常有用，再次提交一次，覆盖上一次的。
-#  比较记忆
-git add & git checkout
-git commit & git reset
+#  比较记忆 重要！ 易混淆！
+git add & git reset
+git commit & git checkout
+
+rebase 分支衍合测试：
+c1 -> C4  -> C7                master
+ \
+   C2  ->  C3            branch20131029
+     \
+       C5  ->  C6        branch2
+
+C1: clear workspace and ready
+C4: 修改了.gitignore
+C5: 修改了HelloWorld
+C6: 增加了bottle.py
+C7: 修改了README
 
 
 
