@@ -59,6 +59,7 @@ then commit again in master for README:
 #################################################
 20131029 for merge in merge1
 
+创建分支合并后不删除分支，到分支上再开发了一下。
 
 
 
