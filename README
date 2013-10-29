@@ -1,11 +1,10 @@
-
 This my first git src manage project 
 
 git config --global --user.name "pythonwood"
 git config --global --user.email "582223837@qq.com
 
-#git config --global --list	 #list all
-#git config --global color.ui "auto"
+# git config --global --list	 #list all
+# git config --global color.ui "auto"
 
 mk HelloWorld
 cd HelloWorld
@@ -15,6 +14,20 @@ git status	#which is changed
 git commit -m "add commit: add something" \
     -m "This allows for a more semantic document."
 #git log -1  #显示最后一次
+
+###############################################################
+
+###################################################################
+# 开心发现，Ubuntu极点五笔切换右边Alt是快捷键!之前用Ctrl+Alt或Ctrl+Space都不方便，比右shift临时换输入法更好！
+###################################################################
+
+git clone git@github.com:/pythonwood/HelloWorld.git
+# 
+git commit -amend # 非常有用，再次提交一次，覆盖上一次的。
+#  比较记忆
+git add & git checkout
+git commit & git reset
+
 
 
 
