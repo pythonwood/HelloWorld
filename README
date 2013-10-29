@@ -41,6 +41,21 @@ C5: 修改了HelloWorld
 C6: 增加了bottle.py
 C7: 修改了README
 
+after rebase :
+git checkout branch2
+git rebase --onto master branch20131029  branch2
+git checkout master
+git merge branch2
+git rebase master branch20131029
+git checkout master
+git merge branch20131029
+git branch -v
+# git branch -d branch20131029  branch2
+
+C1 -> C4 -> C7 -> C5' -> C6' -> C2' -> C3'
+
+then commit again in master for README:
+
 
 
 
