@@ -2,4 +2,6 @@
 #pass
 #---*utf8*---
 
-import os,sys
+import os,sys,time
+print(time.ctime()+" Hello World !")
+print('\n'.join(sys.path))
